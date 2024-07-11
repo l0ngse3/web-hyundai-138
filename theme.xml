@@ -7558,13 +7558,11 @@ template: '<li><a href="{{link}}" target="_blank"><img src="{{image}}" /><div cl
 		<b:section id='sidebar' showaddelement='yes'>
 <b:widget id='LinkList2' locked='false' title='Liên hệ' type='LinkList' version='1'>
   <b:widget-settings>
-    <b:widget-setting name='link-3'>https://messenger.com</b:widget-setting>
     <b:widget-setting name='sorting'>NONE</b:widget-setting>
     <b:widget-setting name='text-1'>youtube</b:widget-setting>
     <b:widget-setting name='link-1'>https://www.youtube.com/</b:widget-setting>
     <b:widget-setting name='text-0'>facebook</b:widget-setting>
-    <b:widget-setting name='link-2'>tel:0982255743</b:widget-setting>
-    <b:widget-setting name='text-3'>messenger</b:widget-setting>
+    <b:widget-setting name='link-2'>tel:0971528698</b:widget-setting>
     <b:widget-setting name='link-0'>https://www.facebook.com/</b:widget-setting>
     <b:widget-setting name='text-2'>call</b:widget-setting>
   </b:widget-settings>
@@ -7583,51 +7581,6 @@ template: '<li><a href="{{link}}" target="_blank"><img src="{{image}}" /><div cl
 </b:widget>
 </b:section>
 
-<b:section id='footer-widgets' showaddelement='yes'>
-  <b:widget id='HTML9' locked='false' title='Form thông tin' type='HTML'>
-    <b:widget-settings>
-      <b:widget-setting name='content'><![CDATA[<style>
-
-#HTML9 > div.widget-content.cursor-hover > b > i {
-font-size: 20px;
-border: 2px solid powderblue;
-}
-
-#HTML9 > div.widget-content > b > i {
-font-size: 20px;
-border: 2px solid powderblue;
-}
-
-.widget-content {
-  width: 100%;
-  display: block;
-}
-
-@media only screen and (min-width: 768px) and (max-width: 960px) {
-  .widget-content {
-    width: 100%;
-    display: block;
-  }
-}
-</style>
-
-<b><i>Để lại thông tin tư vấn nếu anh chị có nhu cầu</i></b>
-<iframe src="https://forms.gle/XahoX2xSSCMBWAzQ9" width="100%" height="1000">
-</iframe>]]></b:widget-setting>
-    </b:widget-settings>
-    <b:includable id='main'>
-  <!-- only display title if it's non-empty -->
-  <b:if cond='data:title != &quot;&quot;'>
-    <h2 class='title'><data:title/></h2>
-  </b:if>
-  <div class='widget-content'>
-    <data:content/>
-  </div>
-
-  <b:include name='quickedit'/>
-</b:includable>
-  </b:widget>
-</b:section>
 </div>
 
 
@@ -7654,9 +7607,9 @@ border: 2px solid powderblue;
 			   	</div>
 			   	<div class='cursor-hover'>
 			   		<span>Showroom Phạm Văn Đồng 3S</span><br/>
-			   		<p><span><span class='fa fa-home'/>Địa chỉ: Số 138 Phạm Văn Đồng, Xuân Đỉnh, Bắc Từ Liêm, Hà Nội</span><br/><span><span class='fa fa-phone'/>Hotline Bán Hàng: <a href='tel:0906223737' rel='follow'>090 622 3737</a></span></p>
-<p><span><span class='fa fa-volume-control-phone'/></span> Hotline Đặt Lịch Hẹn Dịch Vụ: <a href='tel:%200902189389' rel='follow'>0902 189 389</a><br/><span><span class='fa fa-volume-control-phone'/>Hotline Hỗ Trợ Kỹ Thuật Dịch Vụ: <a href='tel:0904595988' rel='follow'>0904 59 59 88</a></span></p>
-<p class='cursor-hover'><span><span class='fa fa-phone'/></span>Hotline Bảo Hiểm:<a href='tel:0902141919' rel='follow'>0902 14 19 19</a><br/><span class='cursor-hover'><span class='fa fa-fax'/>Tổng Đài: <a href='tel:02438639639' rel='follow'>0243 8 639 639</a></span><br/><span class='cursor-hover'><span class='fa fa-envelope-o'/>info@hyundaiphamvandong.vn</span></p>
+			   		<p><span><span class='fa fa-home'/>Địa chỉ: Số 138 Phạm Văn Đồng, Xuân Đỉnh, Bắc Từ Liêm, Hà Nội</span><br/><span><span class='fa fa-phone'/>Hotline Bán Hàng: <a href='tel:0971528698' rel='follow'>097 152 8698</a></span></p>
+<p><span><span class='fa fa-volume-control-phone'/></span> Hotline Đặt Lịch Hẹn Dịch Vụ: <a href='tel:0971528698' rel='follow'>097 152 8698</a><br/><span><span class='fa fa-volume-control-phone'/>Hotline Hỗ Trợ Kỹ Thuật Dịch Vụ: <a href='tel:0971528698' rel='follow'>0971 528 698</a></span></p>
+<p class='cursor-hover'><span><span class='fa fa-phone'/></span>Hotline Bảo Hiểm:<a href='tel:0971528698' rel='follow'>097 152 8698</a><br/><span class='cursor-hover'><span class='fa fa-fax'/>Tổng Đài: <a href='tel:0971528698' rel='follow'>097 152 8698</a></span><br/><span class='cursor-hover'><span class='fa fa-envelope-o'/>info@hyundaiphamvandong.vn</span></p>
 
 						<span/><br/>
 			   								<br/>
